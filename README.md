@@ -1,4 +1,15 @@
-# AtCoder 参加用環境
+# AtCoder 参加用環境(Java用)
+
+このリポジトリは、[atcoder-env](https://github.com/smkwlab/atcoder-env/)を元に Java 
+を利用してコンテストに参加することを目的に開発したものである。
+
+元の `atcoder-env` では、任意のプログラミング言語を利用可能とするため、
+初回起動時にコンテナを構築するために、
+利用開始までの時間が長いという欠点がある。
+
+本リポジロリでは、JDK 入りのコンテナイメージを利用することで、
+初回起動時の自家を短縮している。
+なお、この環境にさらに他の言語処理系を追加することは可能である。
 
 このリポジトリをクローンし VSCode で開くと、devcontainer が環境を構築する。
 docker image を大きくしたくなかったので、デフォルトでインストールするプログラミング言語処理系は絞っている。
@@ -12,17 +23,10 @@ AtCoder 用ツールの acc, oj はインストール済み。
 ## 対応プログラミング言語
 
 デフォルトのプログラミング言語は Java。
-ただし、デフォルトで構築される docker image には Python3, JavaScript(nodejs)の処理系はインストール済み(acc, oj が必要とするから)。
+ただし、 Python3, JavaScript(nodejs)の処理系もインストール済み(acc, oj が必要とするから)。
 
-[Dockerfile](.devcontainer/Dockerfile) の 37~42行目の コメントを外すことで、
+[Dockerfile](.devcontainer/Dockerfile) のコメントを外すことで、
 他の言語処理系入りの Docker image を構築可能。
-
-各種環境設定としては、以下の言語に対応している(つもり)。
-
-- Java (JDK 11)
-- Ruby
-- Elixir
-- Python3
 
 ## 使い方
 
