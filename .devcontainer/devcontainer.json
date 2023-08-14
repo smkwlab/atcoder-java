@@ -21,13 +21,11 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"sanaajani.taskrunnercode", // Run tasks from Explorer pane
-		"vscjava.vscode-java-pack", // Extension Pack for Java (Microsoft)
-		"ms-python.python", // Python IntelliSense (Microsoft)
-		"ms-python.vscode-pylance", // Python language server (Microsoft)
-		"ms-vscode.cpptools", // C/C++ IntelliSense (Microsoft)
 		"visualstudioexptteam.vscodeintellicode", // AI-assisted development (Microsoft)
 		"yzhang.markdown-all-in-one", // Markdown
-		"zainchen.json" // Json
+		"zainchen.json", // Json
+		"oderwat.indent-rainbow", // Indent Rainbow
+		"shardulm94.trailing-spaces" // Trailing Spaces
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
