@@ -110,7 +110,7 @@ VSCode 上のターミナルで、
 タスク間の差異を吸収するために [am](bin/am) コマンドを用意している。
 
 ## GitHub repository
-https://github.com/toshi0806/docker-atcoder
+https://github.com/smkwlab/docker-atcoder
 
 この環境は、学生が AtCoder に参加する環境を構築するのを支援するために開発した。
 元は https://github.com/hinamimi/docker-atcoder から fork して開発を開始した。
